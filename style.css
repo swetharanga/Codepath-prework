@@ -1,0 +1,97 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 2rem;
+  font-family: verdana, arial, sans-serif; 
+  background-color: slategrey;
+  color: white; 
+}
+h1{
+  font-family: verdana, arial, sans-serif; 
+}
+button
+{
+  padding: 10px;
+  border-radius: 10px;
+}
+#gamebutton > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+.hidden {
+  display: none;
+}
+
+#Button1 {
+    background: lightgreen;
+}
+#Button2 {
+    background: lightblue;
+}
+#Button3 {
+    background: pink;
+}
+#Button4 {
+    background: lightyellow;
+}
+#Button5{
+  background : grey;
+}
+#Button6 {
+    background: plum;
+}
+#Button7 {
+    background: khaki;
+}
+#Button8 {
+    background: peachpuff;
+}
+
+
+
+
+
+#Button1:active , #Button1.lit{
+    background:green;
+}
+#Button2:active ,#Button2.lit{
+    background:blue;
+}
+#Button3:active , #Button3.lit {
+    background:red;
+}
+#Button4:active,#Button4.lit {
+    background: yellow;
+}
+#Button5:active , #Button5.lit{
+    background:black ;
+}
+
+#Button6:active , #Button6.lit{ 
+    background: purple;
+}
+#Button7:active , #Button7.lit{ 
+    background: gold;
+}
+#Button8:active , #Button8.lit{ 
+    background: Sienna;
+}
+/* images and videos max out at full width */
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
